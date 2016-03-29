@@ -1,0 +1,11 @@
+C:\Users\Alistair Cooper\Dropbox\LAPTOP SYNC\Programming in VB\MiddleEarthRent\MiddleEarthRentCalc\bin\Debug\MiddleEarthRentCalc.exe.config
+C:\Users\Alistair Cooper\Dropbox\LAPTOP SYNC\Programming in VB\MiddleEarthRent\MiddleEarthRentCalc\bin\Debug\MiddleEarthRentCalc.exe
+C:\Users\Alistair Cooper\Dropbox\LAPTOP SYNC\Programming in VB\MiddleEarthRent\MiddleEarthRentCalc\bin\Debug\MiddleEarthRentCalc.pdb
+C:\Users\Alistair Cooper\Dropbox\LAPTOP SYNC\Programming in VB\MiddleEarthRent\MiddleEarthRentCalc\bin\Debug\MiddleEarthRentCalc.xml
+C:\Users\Alistair Cooper\Dropbox\LAPTOP SYNC\Programming in VB\MiddleEarthRent\MiddleEarthRentCalc\obj\Debug\MiddleEarthRentCalc.vbprojResolveAssemblyReference.cache
+C:\Users\Alistair Cooper\Dropbox\LAPTOP SYNC\Programming in VB\MiddleEarthRent\MiddleEarthRentCalc\obj\Debug\MiddleEarthRentCalc.frm_mearth.resources
+C:\Users\Alistair Cooper\Dropbox\LAPTOP SYNC\Programming in VB\MiddleEarthRent\MiddleEarthRentCalc\obj\Debug\MiddleEarthRentCalc.Resources.resources
+C:\Users\Alistair Cooper\Dropbox\LAPTOP SYNC\Programming in VB\MiddleEarthRent\MiddleEarthRentCalc\obj\Debug\MiddleEarthRentCalc.vbproj.GenerateResource.Cache
+C:\Users\Alistair Cooper\Dropbox\LAPTOP SYNC\Programming in VB\MiddleEarthRent\MiddleEarthRentCalc\obj\Debug\MiddleEarthRentCalc.exe
+C:\Users\Alistair Cooper\Dropbox\LAPTOP SYNC\Programming in VB\MiddleEarthRent\MiddleEarthRentCalc\obj\Debug\MiddleEarthRentCalc.xml
+C:\Users\Alistair Cooper\Dropbox\LAPTOP SYNC\Programming in VB\MiddleEarthRent\MiddleEarthRentCalc\obj\Debug\MiddleEarthRentCalc.pdb

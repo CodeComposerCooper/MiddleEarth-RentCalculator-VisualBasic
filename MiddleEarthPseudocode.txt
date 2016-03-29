@@ -1,0 +1,111 @@
+Middle Earth Rent Calculator Pseudocode
+Visual Basic app for calculating monthly rent in Middle Earth 
+
+(Amounts displayed in Middle Earth Dollars)
+
+Define constant for minmum base rent and initial base rent = $500
+Define constant for stables view discount = stablesDiscount = $10
+Define constant for mountain view = mountainPremium = $62
+Define constant for creek view = creekPremium = $101
+Define constant for fireplace discount = fireplaceDiscount = $15
+Define constant for non pipe weed smoking = nonSmokePremium = $10
+Define constant for extra storage = storagePremium = $90 
+Define constant for extra storage deposit = storageDeposit = $42
+Define constant for extra stable = stablePremium = $35
+Define constant for horse = horsePremium = $72
+Define constant for coneys = coneysPremium = $125
+
+Define boolean variable for extraStable
+Define variable for Standard Rent
+Define variable for deposit
+
+
+USER clicks calculate rent  {
+
+baseRentValidation() FUNCTION
+
+VALIDATION IF the base rent is not a number error text should read:
+"Base rent must be a number"
+Box title: "Input Error"
+Button: OK
+
+VALIDATION IF the base rent entered is below $500 error text should read:
+"Base rent must be 500 or higher"
+Box title: "Input Error"
+Button: OK
+
+calcBedrooms() FUNCTION
+
+For Single = do nothing
+For One bedroom = ADD $200 to Standard
+  IF One bedroom AND "One and a Half" bathroom ADD $50 to Standard
+For One bedroom with Den = Add $325 to Standard
+  IF One bedroom with Den AND "One and a Half" bathroom ADD $50 to Standard
+For Two bedroom = Add $400 to Standard
+  IF Two bedroom AND "Two Full" bathroom option selected ADD $35 to Standard
+
+calcViews() FUNCTION
+
+Courtyard is checked by default
+For Stables = SUBTRACT $10 from Standard
+For Mountain Foliage = ADD $62 to Standard
+For Creek and Waterfall = ADD $101 to Standard
+
+calcOptions() FUNCTION
+
+For Fireplace not checked = SUBTRACT $15 from Standard
+For non Smoking = ADD $10 to Standard
+For extra Stable = Changing extraStable variable to TRUE
+For storage = ADD $90 to Standard 
+
+calcArea() FUNCTION
+
+For Area = "The Shire" do nothing
+For Area = "Rivendell" add 40% to the Standard rent calculated
+For Area = "Mordor" add 10 % to the Standard rent calculated 
+
+checkParking() FUNCTION
+
+IF extraStable == TRUE add $35 to post-multiplied Standard total 
+
+Set Standard total to Rent text output (make sure a $ is infront and it's rounded)
+
+Set the base value for depositTotal to final totalRent before calculations
+
+calcDeposit() FUNCTION
+
+IF Horse checked = ADD $75 to Deposit
+IF Conyes checked = ADD $125 to Deposit
+IF Storage is checked = ADD $42 to Deposit 
+THEN IF Agent of Sauron checked = MULTIPLY Deposit by 2
+(make sure a $ is infront of total)
+
+---
+
+Button Functions
+
+Single is clicked disable "One and a Half" and "Two Full" bathroom options
+
+One bedroom is clicked selected disable "Two Full" bathroom option
+
+One bedroom is clicked with Den selected disable "Two Full" bathroom option
+
+Two bedroom is clicked disable "One Full" bathroom option
+
+Mordor is clicked disable the "Mountain Foliage" view radio button
+(remember to reenable "Mountain Foliage" for other areas)
+   IF USER has already selected "Mountain View" view grp should change to "Courtyard" radio box selection
+
+--- 
+
+Menu strip 
+
+Selecting Apartments > Featured Single set interface to Single, in The Shire, one bath, courtyard, no pets, with fireplace, all other options unchecked
+
+Selecting Apartments > Featured One Bed set interface to One bed, in The Shire, one bath, stables, no pets, with fireplace, all other options unchecked
+
+Selecting Apartments > Featured Two Bed set interface to Two bed, in The Shire, one and half bath, stables view, no pets, with fireplace, all other options unchecked
+
+
+
+
