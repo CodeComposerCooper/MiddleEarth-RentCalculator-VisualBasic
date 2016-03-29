@@ -75,7 +75,7 @@ Set the base value for depositTotal to final totalRent before calculations
 calcDeposit() FUNCTION
 
 IF Horse checked = ADD $75 to Deposit
-IF Conyes checked = ADD $125 to Deposit
+IF Coneys checked = ADD $125 to Deposit
 IF Storage is checked = ADD $42 to Deposit 
 THEN IF Agent of Sauron checked = MULTIPLY Deposit by 2
 (make sure a $ is infront of total)
